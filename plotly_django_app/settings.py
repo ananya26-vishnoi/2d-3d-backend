@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-z36wc*0n_bs89#fl--15fo$_75(_wu#vfc-tlr&8nla!^(*0x_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://2d-3d.jayantkhanna.in']
+ALLOWED_HOSTS = ['2d-3d.jayantkhanna.in']
 CSRF_TRUSTED_ORIGINS=['http://localhost','http://127.0.0.1','https://2d-3d-frontend.vercel.app']
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True

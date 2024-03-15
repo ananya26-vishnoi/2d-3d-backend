@@ -27,13 +27,13 @@ SECRET_KEY = 'django-insecure-z36wc*0n_bs89#fl--15fo$_75(_wu#vfc-tlr&8nla!^(*0x_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS=['http://localhost','http://127.0.0.1']
+ALLOWED_HOSTS = ['https://2d-3d.jayantkhanna.in']
+CSRF_TRUSTED_ORIGINS=['http://localhost','http://127.0.0.1','https://2d-3d-frontend.vercel.app']
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
-    'http://127.0.0.1:5500'
+    'http://127.0.0.1:5500','https://2d-3d-frontend.vercel.app'
 ]
 
 
@@ -81,9 +81,9 @@ TEMPLATES = [
     },
 ]
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
+# ]
 
 WSGI_APPLICATION = 'plotly_django_app.wsgi.application'
 

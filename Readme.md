@@ -54,6 +54,8 @@ python manage.py runserver
 
 <img src="./assets/5.png">
 
-##
+## Frontend github link
+
+<a href="https://github.com/ananya26-vishnoi/2d-3d-frontend.git">Frontend Design Link</a>
 
 <a href="https://drive.google.com/file/d/1wCMMOOKsjq7v-Ml_fLVDzRSdwV2PHEdg/view?usp=sharing">Video link</a>
